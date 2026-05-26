@@ -1,0 +1,26 @@
+# Week 5 Task 4 — Object Detection on Test Images
+
+## Objective
+Using trained YOLO weights to detect bottles on unseen test images.
+
+## Prediction Command
+
+```bash
+yolo detect predict model=runs/detect/train/weights/best.pt source=dataset/images/test
+```
+
+## Work Completed
+- Loaded trained YOLO weights
+- Performed object detection on test dataset
+- Generated bounding box predictions
+
+## Output
+- Predicted images with bounding boxes
+- Confidence scores
+- Detection results
+
+## Tools Used
+- Ultralytics YOLO
+
+## Outcome
+Successfully detected bottles in unseen test images using the trained custom model.
