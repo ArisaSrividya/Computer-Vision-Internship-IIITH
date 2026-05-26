@@ -1,0 +1,29 @@
+# Week 5 Task 2 — Image Resizing Using FFmpeg
+
+## Objective
+Reducing image dimensions while preserving aspect ratio before YOLO model training.
+
+## Task Performed
+- Used FFmpeg to resize dataset images
+- Processed train, validation, and test images
+- Preserved image aspect ratio during resizing
+
+## Command Used
+
+```bash
+for %f in (*.jpg) do ffmpeg -i "%f" -vf scale=384:-1 "resized\\%f"
+```
+
+## Why Aspect Ratio Was Preserved
+YOLO label coordinates are normalized. Preserving aspect ratio ensures that bounding box coordinates remain correct even after resizing images.
+
+## Output Resolution
+- Original Resolution: 640x360
+- Resized Resolution: 384x216
+
+## Tools Used
+- FFmpeg
+- YOLO Dataset Format
+
+## Outcome
+Successfully resized dataset images for efficient and optimized YOLO model training.
