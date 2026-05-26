@@ -1,0 +1,35 @@
+# Week 5 Task 5 — Final Computer Vision Application
+
+## Objective
+Creating a complete computer vision application capable of detecting bottles automatically using a custom-trained YOLO model.
+
+## Work Completed
+- Created custom dataset
+- Annotated images using Label Studio
+- Resized images using FFmpeg
+- Trained YOLO model
+- Performed object detection on test images
+- Generated final prediction outputs
+- Created demo video with background audio
+
+## Final Application
+Bottle detection system capable of identifying bottles from unseen images and videos using trained YOLO weights.
+
+## Technologies Used
+- YOLO
+- Ultralytics
+- FFmpeg
+- Label Studio
+
+## Output
+- Detection images with bounding boxes
+- Final demo video with audio
+
+## Outcome
+Successfully completed an end-to-end computer vision workflow including:
+- dataset preparation
+- annotation
+- preprocessing
+- model training
+- prediction
+- demo generation
