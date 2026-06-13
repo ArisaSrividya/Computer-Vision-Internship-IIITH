@@ -1,0 +1,18 @@
+# Bottle Waste Detection using YOLO
+
+Final project completed during the IIIT Hyderabad Computer Vision Internship.
+
+Tasks:
+- Dataset preparation and annotation using Label Studio
+- Image preprocessing using FFmpeg
+- YOLO model training and fine-tuning
+- Model evaluation using Precision, Recall, and mAP
+- Object detection on unseen test images
+
+Technologies:
+YOLO, Ultralytics, Label Studio, FFmpeg, Python
+
+Results:
+Precision: ~1.00
+Recall: ~0.999
+mAP@0.5: ~0.995
